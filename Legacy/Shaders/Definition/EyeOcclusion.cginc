@@ -9,8 +9,8 @@
 #define A_AMBIENT_OCCLUSION_ON
 #define A_EXPANDED_MATERIAL_MAPS
 
-#include "Assets/Alloy/Shaders/Framework/Lighting.cginc"
-#include "Assets/Alloy/Shaders/Type/Standard.cginc"
+#include "../../../Shaders/Framework/Lighting.cginc"
+#include "../../../Shaders/Type/Standard.cginc"
 
 void aPreLighting(
     inout ASurface s)

@@ -12,7 +12,7 @@
     #endif
 #endif
 
-#include "Assets/Alloy/Shaders/Framework/Feature.cginc"
+#include "../Framework/Feature.cginc"
 
 #ifdef A_TRANSMISSION_ON
     /// Transmission tint color.

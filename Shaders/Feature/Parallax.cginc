@@ -16,7 +16,7 @@
     #endif
 #endif
 
-#include "Assets/Alloy/Shaders/Framework/Feature.cginc"
+#include "../Framework/Feature.cginc"
     
 #ifdef A_PARALLAX_ON    
     /// Number of samples used for direct view of POM effect.

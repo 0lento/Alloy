@@ -108,8 +108,8 @@ SubShader {
         
         #define UNITY_PASS_FORWARDBASE
         
-        #include "Assets/Alloy/Shaders/Definition/Terrain.cginc"
-        #include "Assets/Alloy/Shaders/Forward/Base.cginc"
+        #include "../../../Shaders/Definition/Terrain.cginc"
+        #include "../../../Shaders/Forward/Base.cginc"
 
         ENDCG
     }
@@ -139,8 +139,8 @@ SubShader {
 
         #define UNITY_PASS_FORWARDADD
 
-        #include "Assets/Alloy/Shaders/Definition/Terrain.cginc"
-        #include "Assets/Alloy/Shaders/Forward/Add.cginc"
+        #include "../../../Shaders/Definition/Terrain.cginc"
+        #include "../../../Shaders/Forward/Add.cginc"
 
         ENDCG
     }
@@ -160,8 +160,8 @@ SubShader {
         
         #define UNITY_PASS_SHADOWCASTER
         
-        #include "Assets/Alloy/Shaders/Definition/Terrain.cginc"
-        #include "Assets/Alloy/Shaders/Forward/Shadow.cginc"
+        #include "../../../Shaders/Definition/Terrain.cginc"
+        #include "../../../Shaders/Forward/Shadow.cginc"
 
         ENDCG
     }
@@ -187,8 +187,8 @@ SubShader {
         
         #define UNITY_PASS_DEFERRED
         
-        #include "Assets/Alloy/Shaders/Definition/Terrain.cginc"
-        #include "Assets/Alloy/Shaders/Forward/Gbuffer.cginc"
+        #include "../../../Shaders/Definition/Terrain.cginc"
+        #include "../../../Shaders/Forward/Gbuffer.cginc"
 
         ENDCG
     }
@@ -210,8 +210,8 @@ SubShader {
         
         #define UNITY_PASS_META
         
-        #include "Assets/Alloy/Shaders/Definition/Terrain.cginc"
-        #include "Assets/Alloy/Shaders/Forward/Meta.cginc"
+        #include "../../../Shaders/Definition/Terrain.cginc"
+        #include "../../../Shaders/Forward/Meta.cginc"
 
         ENDCG
     }

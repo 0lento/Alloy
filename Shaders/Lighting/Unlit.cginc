@@ -8,7 +8,7 @@
 
 #define A_UNLIT_MODE
 
-#include "Assets/Alloy/Shaders/Framework/Lighting.cginc"
+#include "../Framework/Lighting.cginc"
 
 void aPreLighting(
     inout ASurface s)

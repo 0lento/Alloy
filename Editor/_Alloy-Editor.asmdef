@@ -1,0 +1,8 @@
+{
+    "name": "Alloy-Editor",
+    "references": [ "Alloy" ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [ "Editor" ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

@@ -11,8 +11,8 @@
 #define A_REFLECTION_PROBES_ON
 
 // Headers both for this file, and for all Definition and Feature modules.
-#include "Assets/Alloy/Shaders/Config.cginc"
-#include "Assets/Alloy/Shaders/Framework/LightingImpl.cginc"
+#include "../Config.cginc"
+#include "../Framework/LightingImpl.cginc"
 
 #include "UnityCG.cginc"
 #include "UnityDeferredLibrary.cginc"

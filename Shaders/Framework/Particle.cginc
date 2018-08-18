@@ -6,8 +6,8 @@
 #ifndef ALLOY_SHADERS_FRAMEWORK_PARTICLE_CGINC
 #define ALLOY_SHADERS_FRAMEWORK_PARTICLE_CGINC
 
-#include "Assets/Alloy/Shaders/Config.cginc"
-#include "Assets/Alloy/Shaders/Framework/Utility.cginc"
+#include "../Config.cginc"
+#include "../Framework/Utility.cginc"
 
 #include "HLSLSupport.cginc"
 #include "UnityCG.cginc"

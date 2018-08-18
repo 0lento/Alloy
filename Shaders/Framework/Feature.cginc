@@ -7,9 +7,9 @@
 #define ALLOY_SHADERS_FRAMEWORK_FEATURE_CGINC
 
 // Headers both for this file, and for all Definition and Feature modules.
-#include "Assets/Alloy/Shaders/Config.cginc"
-#include "Assets/Alloy/Shaders/Framework/Lighting.cginc"
-#include "Assets/Alloy/Shaders/Framework/Utility.cginc"
+#include "../Config.cginc"
+#include "../Framework/Lighting.cginc"
+#include "../Framework/Utility.cginc"
 
 #include "UnityCG.cginc"
 #include "UnityStandardUtils.cginc"

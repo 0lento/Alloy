@@ -28,7 +28,7 @@
     #endif
 #endif
 
-#include "Assets/Alloy/Shaders/Framework/Feature.cginc"
+#include "../Framework/Feature.cginc"
 
 #ifdef A_VERTEX_BLEND_ON
     half _TriplanarBlendSharpness;

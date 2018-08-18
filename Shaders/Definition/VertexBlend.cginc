@@ -8,8 +8,8 @@
 
 #define A_VERTEX_BLEND_ON
 
-#include "Assets/Alloy/Shaders/Lighting/Standard.cginc"
-#include "Assets/Alloy/Shaders/Type/Standard.cginc"
+#include "../Lighting/Standard.cginc"
+#include "../Type/Standard.cginc"
 
 void aSurfaceShader(
     inout ASurface s)

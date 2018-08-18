@@ -95,8 +95,8 @@ SubShader {
         #define UNITY_PASS_DEFERRED
         #define A_DECAL_ALPHA_FIRSTPASS_SHADER
         
-        #include "Assets/Alloy/Mods/Shaders/Definition/DeferredDecalAdvanced.cginc"
-        #include "Assets/Alloy/Shaders/Forward/Gbuffer.cginc"
+        #include "../Definition/DeferredDecalAdvanced.cginc"
+        #include "../../../Shaders/Forward/Gbuffer.cginc"
 
         ENDCG
     }
@@ -132,8 +132,8 @@ SubShader {
         
         #define UNITY_PASS_DEFERRED
         
-        #include "Assets/Alloy/Mods/Shaders/Definition/DeferredDecalAdvanced.cginc"
-        #include "Assets/Alloy/Shaders/Forward/Gbuffer.cginc"
+        #include "../Definition/DeferredDecalAdvanced.cginc"
+        #include "../../../Shaders/Forward/Gbuffer.cginc"
 
         ENDCG
     }

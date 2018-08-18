@@ -18,7 +18,7 @@
     #define A_VERTEX_COLOR_IS_DATA
 #endif
 
-#include "Assets/Alloy/Shaders/Framework/Type.cginc"
+#include "../Framework/Type.cginc"
 
 void aVertexShader(
     inout AVertex v)

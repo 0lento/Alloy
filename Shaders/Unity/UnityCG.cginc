@@ -12,7 +12,7 @@
 #define UNITY_HALF_PI       1.57079632679f
 #define UNITY_INV_HALF_PI   0.636619772367f
 
-#include "Assets/Alloy/Shaders/Framework/Utility.cginc"
+#include "../Framework/Utility.cginc"
 
 #include "UnityShaderVariables.cginc"
 #include "UnityShaderUtilities.cginc"

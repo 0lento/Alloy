@@ -26,8 +26,8 @@ SubShader {
 
         #define A_SUBSURFACE_ON
 
-        #include "Assets/Alloy/Shaders/Deferred/Light.cginc"
-        #include "Assets/Alloy/Shaders/Lighting/Standard.cginc"
+        #include "../../Deferred/Light.cginc"
+        #include "../../Lighting/Standard.cginc"
 
         ENDCG
     }
@@ -53,7 +53,7 @@ SubShader {
         #pragma vertex aMainVertexShader
         #pragma fragment aMainFragmentShader
 
-        #include "Assets/Alloy/Shaders/Deferred/Decode.cginc"
+        #include "../../Deferred/Decode.cginc"
 
         ENDCG 
     }

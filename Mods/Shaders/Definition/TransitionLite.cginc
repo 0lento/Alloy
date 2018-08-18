@@ -12,8 +12,8 @@
 #define A_TRANSITION_BLEND_GLOW_OFF
 #define A_SECONDARY_TEXTURES_ON
 
-#include "Assets/Alloy/Shaders/Lighting/Standard.cginc"
-#include "Assets/Alloy/Shaders/Type/Standard.cginc"
+#include "../../../Shaders/Lighting/Standard.cginc"
+#include "../../../Shaders/Type/Standard.cginc"
 
 void aSurfaceShader(
     inout ASurface s)

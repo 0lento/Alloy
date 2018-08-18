@@ -26,8 +26,8 @@
     #define A_GBUFFER_PASS
 #endif
 
-#include "Assets/Alloy/Shaders/Lighting/Standard.cginc"
-#include "Assets/Alloy/Shaders/Framework/Unity.cginc"
+#include "../Lighting/Standard.cginc"
+#include "../Framework/Unity.cginc"
 
 #include "UnityShaderVariables.cginc"
 #include "UnityStandardConfig.cginc"

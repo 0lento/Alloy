@@ -28,10 +28,10 @@
     #endif
 #endif
 
-#include "Assets/Alloy/Shaders/Config.cginc"
-#include "Assets/Alloy/Shaders/Framework/Feature.cginc"
-#include "Assets/Alloy/Shaders/Framework/LightingImpl.cginc"
-#include "Assets/Alloy/Shaders/Framework/Utility.cginc"
+#include "../Config.cginc"
+#include "../Framework/Feature.cginc"
+#include "../Framework/LightingImpl.cginc"
+#include "../Framework/Utility.cginc"
 
 #include "HLSLSupport.cginc"
 #include "UnityCG.cginc"

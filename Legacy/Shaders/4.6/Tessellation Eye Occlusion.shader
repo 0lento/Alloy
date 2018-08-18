@@ -84,8 +84,8 @@ SubShader {
         
         #define UNITY_PASS_FORWARDBASE
         
-        #include "Assets/Alloy/Legacy/Shaders/Definition/EyeOcclusion.cginc"
-        #include "Assets/Alloy/Shaders/Forward/Base.cginc"
+        #include "../Definition/EyeOcclusion.cginc"
+        #include "../../../Shaders/Forward/Base.cginc"
 
         ENDCG
     }

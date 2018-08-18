@@ -9,8 +9,8 @@
 #define A_MAIN_TEXTURES_ON
 #define A_TRANSMISSION_ON
 
-#include "Assets/Alloy/Shaders/Lighting/Standard.cginc"
-#include "Assets/Alloy/Shaders/Type/Standard.cginc"
+#include "../Lighting/Standard.cginc"
+#include "../Type/Standard.cginc"
 
 void aSurfaceShader(
     inout ASurface s)

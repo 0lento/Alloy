@@ -15,8 +15,8 @@
 #define A_DETAIL_MASK_VERTEX_COLOR_ALPHA_ON
 #define A_DETAIL_COLOR_MAP_OFF
 
-#include "Assets/Alloy/Shaders/Lighting/Standard.cginc"
-#include "Assets/Alloy/Shaders/Type/Standard.cginc"
+#include "../../../Shaders/Lighting/Standard.cginc"
+#include "../../../Shaders/Type/Standard.cginc"
 
 // Red Detail.
 half _RedDetailMaskStrength;

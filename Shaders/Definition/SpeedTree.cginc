@@ -9,8 +9,8 @@
 #define A_SPEED_TREE_ON
 #define A_SPECULAR_TINT_ON
 
-#include "Assets/Alloy/Shaders/Lighting/Standard.cginc"
-#include "Assets/Alloy/Shaders/Type/SpeedTree.cginc"
+#include "../Lighting/Standard.cginc"
+#include "../Type/SpeedTree.cginc"
 
 void aSurfaceShader(
     inout ASurface s)

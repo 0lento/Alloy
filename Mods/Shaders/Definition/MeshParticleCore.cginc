@@ -13,8 +13,8 @@
 #define A_METALLIC_ON
 #define A_EMISSIVE_COLOR_ON
 
-#include "Assets/Alloy/Shaders/Lighting/Standard.cginc"
-#include "Assets/Alloy/Shaders/Type/Standard.cginc"
+#include "../../../Shaders/Lighting/Standard.cginc"
+#include "../../../Shaders/Type/Standard.cginc"
 
 sampler2D _BaseColorRamp;
 sampler2D _EmissionColorRamp;

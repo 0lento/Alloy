@@ -15,8 +15,8 @@
 #define A_RIM_EFFECTS_MAP_OFF
 #define A_SECONDARY_TEXTURES_ON
 
-#include "Assets/Alloy/Shaders/Lighting/Standard.cginc"
-#include "Assets/Alloy/Shaders/Type/Standard.cginc"
+#include "../../../Shaders/Lighting/Standard.cginc"
+#include "../../../Shaders/Type/Standard.cginc"
 
 A_SAMPLER_2D(_Layered2MatPackedMap);
 sampler2D _Layered2MatBumpMap;

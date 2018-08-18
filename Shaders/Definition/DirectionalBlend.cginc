@@ -11,8 +11,8 @@
 #define A_DIRECTIONAL_BLEND_ON
 #define A_SECONDARY_TEXTURES_ON
 
-#include "Assets/Alloy/Shaders/Lighting/Standard.cginc"
-#include "Assets/Alloy/Shaders/Type/Standard.cginc"
+#include "../Lighting/Standard.cginc"
+#include "../Type/Standard.cginc"
     
 void aSurfaceShader(
     inout ASurface s)

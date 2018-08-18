@@ -11,8 +11,8 @@
 #define A_WETNESS_POROSITY_OFF
 #define A_WETNESS_NORMAL_MAP_OFF
 
-#include "Assets/Alloy/Shaders/Lighting/Hair.cginc"
-#include "Assets/Alloy/Shaders/Type/Standard.cginc"
+#include "../Lighting/Hair.cginc"
+#include "../Type/Standard.cginc"
 
 void aSurfaceShader(
     inout ASurface s)

@@ -18,7 +18,7 @@
     #define A_TANGENT_ON
 #endif
 
-#include "Assets/Alloy/Shaders/Framework/Type.cginc"
+#include "../Framework/Type.cginc"
 
 #include "TerrainEngine.cginc"
 

@@ -8,7 +8,7 @@
 
 #define A_DIRECT_LIGHTING_PASS
 
-#include "Assets/Alloy/Shaders/Framework/Deferred.cginc"
+#include "../Framework/Deferred.cginc"
 
 unity_v2f_deferred aMainVertexShader(
     float4 vertex : POSITION, 

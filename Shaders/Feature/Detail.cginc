@@ -14,7 +14,7 @@
     #define A_DETAIL_MASK_VERTEX_COLOR_ALPHA_ON
 #endif
 
-#include "Assets/Alloy/Shaders/Framework/Feature.cginc"
+#include "../Framework/Feature.cginc"
 
 #ifdef A_DETAIL_ON
     #ifndef A_DETAIL_MASK_OFF

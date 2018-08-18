@@ -10,7 +10,7 @@
     #define A_DECAL_ON
 #endif
 
-#include "Assets/Alloy/Shaders/Framework/Feature.cginc"
+#include "../Framework/Feature.cginc"
 
 #ifdef A_DECAL_ON
     /// The decal tint color.

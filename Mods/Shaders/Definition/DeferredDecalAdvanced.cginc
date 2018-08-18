@@ -12,8 +12,8 @@
 #define A_SURFACE_CUSTOM_FIELDS \
     half decalMask2; 
 
-#include "Assets/Alloy/Shaders/Framework/Type.cginc"
-#include "Assets/Alloy/Shaders/Lighting/Standard.cginc"
+#include "../../../Shaders/Framework/Type.cginc"
+#include "../../../Shaders/Lighting/Standard.cginc"
 
 half3 _GlowColor;
 half _RoughnessMin;

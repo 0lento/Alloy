@@ -259,12 +259,15 @@ namespace Alloy {
             int count = 1;
             var texture2D = tex as Texture2D;
             var renderTexture = tex as RenderTexture;
+#if !UNITY_2018_1_OR_NEWER
             var proceduralTexture = tex as ProceduralTexture;
+#endif
 
             if (texture2D != null) {
                 count = texture2D.mipmapCount;
             } else if (renderTexture != null) {
                 count = renderTexture.useMipMap ? GetMipCountFromSize(tex) : 1;
+#if !UNITY_2018_1_OR_NEWER
             } else if (proceduralTexture != null) {
                 var mat =
                     proceduralTexture.GetType()
@@ -272,6 +275,7 @@ namespace Alloy {
                         .Invoke(proceduralTexture, null) as ProceduralMaterial;
                 var imp = AssetImporter.GetAtPath(AssetDatabase.GetAssetPath(mat)) as SubstanceImporter;
                 count = imp != null && imp.GetGenerateMipMaps(mat) ? GetMipCountFromSize(tex) : 1;
+#endif
             }
 
             return count;

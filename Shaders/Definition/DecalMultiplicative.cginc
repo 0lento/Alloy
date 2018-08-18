@@ -6,8 +6,8 @@
 #ifndef ALLOY_SHADERS_DEFINITION_DECAL_MULTIPLICATIVE_CGINC
 #define ALLOY_SHADERS_DEFINITION_DECAL_MULTIPLICATIVE_CGINC
 
-#include "Assets/Alloy/Shaders/Lighting/Unlit.cginc"
-#include "Assets/Alloy/Shaders/Type/DecalMultiplicative.cginc"
+#include "../Lighting/Unlit.cginc"
+#include "../Type/DecalMultiplicative.cginc"
 
 void aSurfaceShader(
     inout ASurface s)

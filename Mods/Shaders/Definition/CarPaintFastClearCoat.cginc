@@ -19,8 +19,8 @@
     #define A_VIEW_DIR_WORLD_ON
 #endif
 
-#include "Assets/Alloy/Shaders/Lighting/Standard.cginc"
-#include "Assets/Alloy/Shaders/Type/Standard.cginc"
+#include "../../../Shaders/Lighting/Standard.cginc"
+#include "../../../Shaders/Type/Standard.cginc"
 
 /// Clear Coat weight.
 /// Expects values in the range [0,1].

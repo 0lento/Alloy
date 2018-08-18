@@ -10,8 +10,8 @@
 #define A_NORMAL_WORLD_ON
 #define A_EMISSIVE_COLOR_ON
 
-#include "Assets/Alloy/Shaders/Lighting/Unlit.cginc"
-#include "Assets/Alloy/Shaders/Type/Standard.cginc"
+#include "../../../Shaders/Lighting/Unlit.cginc"
+#include "../../../Shaders/Type/Standard.cginc"
 
 half _CurvatureScale;
 

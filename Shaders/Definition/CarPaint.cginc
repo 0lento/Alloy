@@ -10,8 +10,8 @@
 #define A_CAR_PAINT_ON
 #define A_MAIN_TEXTURES_CONSTANT_ROUGHNESS
 
-#include "Assets/Alloy/Shaders/Lighting/Standard.cginc"
-#include "Assets/Alloy/Shaders/Type/Standard.cginc"
+#include "../Lighting/Standard.cginc"
+#include "../Type/Standard.cginc"
 
 void aSurfaceShader(
     inout ASurface s)

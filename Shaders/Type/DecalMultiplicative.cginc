@@ -6,7 +6,7 @@
 #ifndef ALLOY_SHADERS_TYPE_DECAL_MULTIPLICATIVE_CGINC
 #define ALLOY_SHADERS_TYPE_DECAL_MULTIPLICATIVE_CGINC
 
-#include "Assets/Alloy/Shaders/Framework/Type.cginc"
+#include "../Framework/Type.cginc"
 
 void aVertexShader(
     inout AVertex v)

@@ -9,8 +9,8 @@
 #define A_TERRAIN_ON
 #define A_DETAIL_MASK_OFF
 
-#include "Assets/Alloy/Shaders/Lighting/Standard.cginc"
-#include "Assets/Alloy/Shaders/Type/Terrain.cginc"
+#include "../Lighting/Standard.cginc"
+#include "../Type/Terrain.cginc"
 
 void aSurfaceShader(
     inout ASurface s)

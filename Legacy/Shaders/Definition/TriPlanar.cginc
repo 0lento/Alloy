@@ -10,8 +10,8 @@
 #define A_TRIPLANAR_ON
 #define A_RIM_EFFECTS_MAP_OFF
 
-#include "Assets/Alloy/Shaders/Lighting/Standard.cginc"
-#include "Assets/Alloy/Shaders/Type/Standard.cginc"
+#include "../../../Shaders/Lighting/Standard.cginc"
+#include "../../../Shaders/Type/Standard.cginc"
 
 void aSurfaceShader(
     inout ASurface s)

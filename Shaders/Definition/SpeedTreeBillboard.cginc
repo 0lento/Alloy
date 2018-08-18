@@ -8,8 +8,8 @@
 
 #define A_SPEED_TREE_ON
 
-#include "Assets/Alloy/Shaders/Lighting/Standard.cginc"
-#include "Assets/Alloy/Shaders/Type/SpeedTreeBillboard.cginc"
+#include "../Lighting/Standard.cginc"
+#include "../Type/SpeedTreeBillboard.cginc"
 
 void aSurfaceShader(
     inout ASurface s)

@@ -31,7 +31,7 @@
     #endif
 #endif
 
-#include "Assets/Alloy/Shaders/Framework/Feature.cginc"
+#include "../Framework/Feature.cginc"
 
 #ifdef A_TERRAIN_ON
     #ifdef A_TERRAIN_DISTANT

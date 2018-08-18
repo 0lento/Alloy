@@ -8,8 +8,8 @@
 
 #define A_MAIN_TEXTURES_ON
 
-#include "Assets/Alloy/Shaders/Lighting/Standard.cginc"
-#include "Assets/Alloy/Shaders/Type/DecalAlpha.cginc"
+#include "../Lighting/Standard.cginc"
+#include "../Type/DecalAlpha.cginc"
 
 void aSurfaceShader(
     inout ASurface s)

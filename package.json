@@ -1,0 +1,9 @@
+{
+	"name" : "package.alloy",
+	"displayName" : "Alloy",
+	"version" : "4.3.0",
+	"unity" : "2018.1",
+	"description" : "Alloy Physical Shader Framework 3 is the most powerful, extensible, and complete set of physically-based shaders for Unity 5. Designed for the optimal balance of feature set, clean workflow, and flexibility, Alloy is ready to help you hit that 'AAA' feel.",
+	"dependencies" : {
+	}
+}

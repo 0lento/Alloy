@@ -10,7 +10,7 @@
     #define A_WETNESS_ON
 #endif
 
-#include "Assets/Alloy/Shaders/Framework/Feature.cginc"
+#include "../Framework/Feature.cginc"
 
 #ifdef A_WETNESS_ON
     #ifndef A_WETNESS_MASK_OFF

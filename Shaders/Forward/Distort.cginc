@@ -25,7 +25,7 @@
 #define A_FORWARD_TEXCOORD0 float3 normalProjection : TEXCOORD0;
 #define A_FORWARD_TEXCOORD1 float4 grabUv : TEXCOORD1;
 
-#include "Assets/Alloy/Shaders/Framework/Forward.cginc"
+#include "../Framework/Forward.cginc"
 
 /// Grab texture containing copy of the back buffer.
 sampler2D A_DISTORT_TEXTURE;

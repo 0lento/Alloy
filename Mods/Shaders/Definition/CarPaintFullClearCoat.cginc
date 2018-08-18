@@ -8,8 +8,8 @@
 
 #define _ALPHABLEND_ON
 
-#include "Assets/Alloy/Shaders/Lighting/Standard.cginc"
-#include "Assets/Alloy/Shaders/Type/Standard.cginc"
+#include "../../../Shaders/Lighting/Standard.cginc"
+#include "../../../Shaders/Type/Standard.cginc"
 
 half4 _ClearCoatColor;
 half _ClearCoatRoughness;

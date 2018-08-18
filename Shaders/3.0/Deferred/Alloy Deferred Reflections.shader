@@ -15,8 +15,8 @@ SubShader {
         #pragma vertex aMainVertexShader
         #pragma fragment aMainFragmentShader
 
-        #include "Assets/Alloy/Shaders/Deferred/ReflectionProbe.cginc"
-        #include "Assets/Alloy/Shaders/Lighting/Standard.cginc"
+        #include "../../Deferred/ReflectionProbe.cginc"
+        #include "../../Lighting/Standard.cginc"
 
         ENDCG
     }
@@ -35,7 +35,7 @@ SubShader {
 
 	    #pragma multi_compile ___ UNITY_HDR_ON
 
-        #include "Assets/Alloy/Shaders/Deferred/ReflectionAdd.cginc"
+        #include "../../Deferred/ReflectionAdd.cginc"
 
 	    ENDCG
     }

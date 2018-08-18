@@ -20,7 +20,7 @@
     #endif
 #endif
 
-#include "Assets/Alloy/Shaders/Framework/Feature.cginc"
+#include "../Framework/Feature.cginc"
 
 #ifdef A_DISSOLVE_ON
     /// Dissolve glow tint color.

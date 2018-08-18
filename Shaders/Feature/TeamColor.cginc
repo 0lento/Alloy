@@ -10,7 +10,7 @@
     #define A_TEAMCOLOR_ON
 #endif
 
-#include "Assets/Alloy/Shaders/Framework/Feature.cginc"
+#include "../Framework/Feature.cginc"
 
 #ifdef A_TEAMCOLOR_ON
     /// Toggles using the mask texture as a color tint.

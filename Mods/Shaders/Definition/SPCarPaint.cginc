@@ -9,8 +9,8 @@
 #define A_CLEARCOAT_ON
 #define A_MAIN_TEXTURES_ON
 
-#include "Assets/Alloy/Shaders/Lighting/Standard.cginc"
-#include "Assets/Alloy/Shaders/Type/Standard.cginc"
+#include "../../../Shaders/Lighting/Standard.cginc"
+#include "../../../Shaders/Type/Standard.cginc"
 
 /// The secondary paint tint color.
 /// Expects a linear LDR color.

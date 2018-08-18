@@ -209,8 +209,8 @@ SubShader {
         
         #define UNITY_PASS_FORWARDBASE
         
-        #include "Assets/Alloy/Shaders/Definition/Skin.cginc"
-        #include "Assets/Alloy/Shaders/Forward/Base.cginc"
+        #include "../../Definition/Skin.cginc"
+        #include "../../Forward/Base.cginc"
 
         ENDCG
     }
@@ -249,8 +249,8 @@ SubShader {
 
         #define UNITY_PASS_FORWARDADD
 
-        #include "Assets/Alloy/Shaders/Definition/Skin.cginc"
-        #include "Assets/Alloy/Shaders/Forward/Add.cginc"
+        #include "../../Definition/Skin.cginc"
+        #include "../../Forward/Add.cginc"
 
         ENDCG
     }
@@ -276,8 +276,8 @@ SubShader {
         
         #define UNITY_PASS_SHADOWCASTER
         
-        #include "Assets/Alloy/Shaders/Definition/Skin.cginc"
-        #include "Assets/Alloy/Shaders/Forward/Shadow.cginc"
+        #include "../../Definition/Skin.cginc"
+        #include "../../Forward/Shadow.cginc"
 
         ENDCG
     }
@@ -303,8 +303,8 @@ SubShader {
         
         #define UNITY_PASS_META
         
-        #include "Assets/Alloy/Shaders/Definition/Skin.cginc"
-        #include "Assets/Alloy/Shaders/Forward/Meta.cginc"
+        #include "../../Definition/Skin.cginc"
+        #include "../../Forward/Meta.cginc"
 
         ENDCG
     }

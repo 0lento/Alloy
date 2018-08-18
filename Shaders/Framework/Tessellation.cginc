@@ -6,7 +6,7 @@
 #ifndef ALLOY_SHADERS_FRAMEWORK_TESSELLATION_CGINC
 #define ALLOY_SHADERS_FRAMEWORK_TESSELLATION_CGINC
 
-#include "Assets/Alloy/Shaders/Config.cginc"
+#include "../Config.cginc"
 
 #include "HLSLSupport.cginc"
 //#include "Lighting.cginc"

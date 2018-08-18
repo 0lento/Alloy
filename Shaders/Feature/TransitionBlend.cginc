@@ -12,7 +12,7 @@
     #endif
 #endif
 
-#include "Assets/Alloy/Shaders/Framework/Feature.cginc"
+#include "../Framework/Feature.cginc"
 
 #ifdef A_TRANSITION_BLEND_ON
     /// Transition glow tint color.

@@ -25,9 +25,9 @@
     half irisBeckmannRoughness; \
     half irisNdotV;
 
-#include "Assets/Alloy/Shaders/Framework/Lighting.cginc"
-#include "Assets/Alloy/Shaders/Type/Standard.cginc"
-#include "Assets/Alloy/Legacy/Shaders/Feature/EyeParallax.cginc"
+#include "../../../Shaders/Framework/Lighting.cginc"
+#include "../../../Shaders/Type/Standard.cginc"
+#include "../Feature/EyeParallax.cginc"
 
 /// Implements a scattering diffuse BRDF affected by roughness.
 /// @param  albedo      Diffuse albedo LDR color.

@@ -62,8 +62,8 @@ SubShader {
         
         #define UNITY_PASS_FORWARDBASE
         
-        #include "Assets/Alloy/Shaders/Definition/DecalAmbient.cginc"
-        #include "Assets/Alloy/Shaders/Forward/Base.cginc"
+        #include "../../Definition/DecalAmbient.cginc"
+        #include "../../Forward/Base.cginc"
 
         ENDCG
     }
@@ -91,8 +91,8 @@ SubShader {
         
         #define UNITY_PASS_DEFERRED
         
-        #include "Assets/Alloy/Shaders/Definition/DecalAmbient.cginc"
-        #include "Assets/Alloy/Shaders/Forward/Gbuffer.cginc"
+        #include "../../Definition/DecalAmbient.cginc"
+        #include "../../Forward/Gbuffer.cginc"
 
         ENDCG
     }

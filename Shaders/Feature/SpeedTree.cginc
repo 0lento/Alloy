@@ -24,7 +24,7 @@
     #endif
 #endif
 
-#include "Assets/Alloy/Shaders/Framework/Feature.cginc"
+#include "../Framework/Feature.cginc"
 
 #ifdef A_SPEED_TREE_ON
     #ifdef GEOM_TYPE_BRANCH_DETAIL

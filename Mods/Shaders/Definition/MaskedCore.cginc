@@ -10,8 +10,8 @@
 #define A_DETAIL_MASK_OFF
 #define A_EMISSION_MASK_MAP_OFF
 
-#include "Assets/Alloy/Shaders/Lighting/Standard.cginc"
-#include "Assets/Alloy/Shaders/Type/Standard.cginc"
+#include "../../../Shaders/Lighting/Standard.cginc"
+#include "../../../Shaders/Type/Standard.cginc"
 
 sampler2D _MasksMap;
 half4 _DetailMasks;

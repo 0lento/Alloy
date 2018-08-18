@@ -12,7 +12,7 @@ public class AlloyMaterialMapChannelPacker : EditorWindow {
 
     private const string c_assetPathRoot = "Assets";
     private const string c_defaultFilename = "Output";
-
+	
     protected Vector2 ScrollPosition = new Vector2(0, 0);
 
     [SerializeField]
@@ -158,7 +158,7 @@ public class AlloyMaterialMapChannelPacker : EditorWindow {
     public static MaterialMapChannelPackerDefinition GlobalDefinition {
         get {
             if (s_definition == null) {
-                string path = "Assets/Alloy/Scripts/MaterialMapChannelPacker/Config/_PackerDefinition.asset";
+                string path = "Packages/package.alloy/Editor/MaterialMapChannelPacker/Config/_PackerDefinition.asset";
                 s_definition =
                     AssetDatabase.LoadAssetAtPath(path, typeof (MaterialMapChannelPackerDefinition)) as
                         MaterialMapChannelPackerDefinition;

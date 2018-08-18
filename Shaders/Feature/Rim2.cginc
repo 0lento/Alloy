@@ -24,7 +24,7 @@
     #endif
 #endif
 
-#include "Assets/Alloy/Shaders/Framework/Feature.cginc"
+#include "../Framework/Feature.cginc"
 
 #ifdef A_RIM2_ON
     /// Secondary rim lighting tint color.

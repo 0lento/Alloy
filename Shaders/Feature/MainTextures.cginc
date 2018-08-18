@@ -22,7 +22,7 @@
     #endif
 #endif
 
-#include "Assets/Alloy/Shaders/Framework/Feature.cginc"
+#include "../Framework/Feature.cginc"
 
 void aMainTextures(
     inout ASurface s)

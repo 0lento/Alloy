@@ -7,11 +7,11 @@
 #define ALLOY_SHADERS_FRAMEWORK_FORWARD_CGINC
 
 // Headers both for this file, and for all Definition and Feature modules.
-#include "Assets/Alloy/Shaders/Framework/FeatureImpl.cginc"
-#include "Assets/Alloy/Shaders/Framework/LightingImpl.cginc"
-#include "Assets/Alloy/Shaders/Framework/TypeImpl.cginc"
-#include "Assets/Alloy/Shaders/Framework/Unity.cginc"
-#include "Assets/Alloy/Shaders/Framework/Utility.cginc"
+#include "../Framework/FeatureImpl.cginc"
+#include "../Framework/LightingImpl.cginc"
+#include "../Framework/TypeImpl.cginc"
+#include "../Framework/Unity.cginc"
+#include "../Framework/Utility.cginc"
 
 #include "AutoLight.cginc"
 #include "HLSLSupport.cginc"
@@ -196,7 +196,7 @@ struct AFragmentInput {
 };
 
 // TODO: Find a way to move this dependency!
-#include "Assets/Alloy/Shaders/Framework/Tessellation.cginc"
+#include "../Framework/Tessellation.cginc"
 
 /// Transfers the per-vertex lightmapping or SH data to the fragment shader.
 /// @param[in,out]  i   Vertex to fragment transfer data.

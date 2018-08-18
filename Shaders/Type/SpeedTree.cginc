@@ -33,7 +33,7 @@
     #define GEOM_TYPE_BRANCH
 #endif
 
-#include "Assets/Alloy/Shaders/Framework/Type.cginc"
+#include "../Framework/Type.cginc"
 
 #include "SpeedTreeVertex.cginc"
 

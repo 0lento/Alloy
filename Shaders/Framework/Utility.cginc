@@ -6,7 +6,7 @@
 #ifndef ALLOY_SHADERS_FRAMEWORK_UTILITY_CGINC
 #define ALLOY_SHADERS_FRAMEWORK_UTILITY_CGINC
 
-#include "Assets/Alloy/Shaders/Config.cginc"
+#include "../Config.cginc"
 
 #include "UnityShaderVariables.cginc"
 

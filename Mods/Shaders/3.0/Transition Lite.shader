@@ -113,8 +113,8 @@ SubShader {
         
         #define UNITY_PASS_FORWARDBASE
         
-        #include "Assets/Alloy/Mods/Shaders/Definition/TransitionLite.cginc"
-        #include "Assets/Alloy/Shaders/Forward/Base.cginc"
+        #include "../Definition/TransitionLite.cginc"
+        #include "../../../Shaders/Forward/Base.cginc"
 
         ENDCG
     }
@@ -145,8 +145,8 @@ SubShader {
 
         #define UNITY_PASS_FORWARDADD
 
-        #include "Assets/Alloy/Mods/Shaders/Definition/TransitionLite.cginc"
-        #include "Assets/Alloy/Shaders/Forward/Add.cginc"
+        #include "../Definition/TransitionLite.cginc"
+        #include "../../../Shaders/Forward/Add.cginc"
 
         ENDCG
     }
@@ -170,8 +170,8 @@ SubShader {
         
         #define UNITY_PASS_SHADOWCASTER
         
-        #include "Assets/Alloy/Mods/Shaders/Definition/TransitionLite.cginc"
-        #include "Assets/Alloy/Shaders/Forward/Shadow.cginc"
+        #include "../Definition/TransitionLite.cginc"
+        #include "../../../Shaders/Forward/Shadow.cginc"
 
         ENDCG
     }
@@ -199,8 +199,8 @@ SubShader {
         
         #define UNITY_PASS_DEFERRED
         
-        #include "Assets/Alloy/Mods/Shaders/Definition/TransitionLite.cginc"
-        #include "Assets/Alloy/Shaders/Forward/Gbuffer.cginc"
+        #include "../Definition/TransitionLite.cginc"
+        #include "../../../Shaders/Forward/Gbuffer.cginc"
 
         ENDCG
     }
@@ -222,8 +222,8 @@ SubShader {
         
         #define UNITY_PASS_META
         
-        #include "Assets/Alloy/Mods/Shaders/Definition/TransitionLite.cginc"
-        #include "Assets/Alloy/Shaders/Forward/Meta.cginc"
+        #include "../Definition/TransitionLite.cginc"
+        #include "../../../Shaders/Forward/Meta.cginc"
 
         ENDCG
     }

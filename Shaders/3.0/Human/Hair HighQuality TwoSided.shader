@@ -159,8 +159,8 @@ SubShader {
         #define UNITY_PASS_FORWARDBASE
         #define _ALPHATEST_ON
 
-        #include "Assets/Alloy/Shaders/Definition/Hair.cginc"
-        #include "Assets/Alloy/Shaders/Forward/Base.cginc"
+        #include "../../Definition/Hair.cginc"
+        #include "../../Forward/Base.cginc"
 
         ENDCG
     }
@@ -194,8 +194,8 @@ SubShader {
         #define UNITY_PASS_FORWARDADD
         #define _ALPHATEST_ON
 
-        #include "Assets/Alloy/Shaders/Definition/Hair.cginc"
-        #include "Assets/Alloy/Shaders/Forward/Add.cginc"
+        #include "../../Definition/Hair.cginc"
+        #include "../../Forward/Add.cginc"
 
         ENDCG
     }
@@ -234,8 +234,8 @@ SubShader {
         #define UNITY_PASS_FORWARDBASE
         #define _ALPHABLEND_ON
 
-        #include "Assets/Alloy/Shaders/Definition/Hair.cginc"
-        #include "Assets/Alloy/Shaders/Forward/Base.cginc"
+        #include "../../Definition/Hair.cginc"
+        #include "../../Forward/Base.cginc"
 
         ENDCG
     }
@@ -270,8 +270,8 @@ SubShader {
         #define UNITY_PASS_FORWARDADD
         #define _ALPHABLEND_ON
 
-        #include "Assets/Alloy/Shaders/Definition/Hair.cginc"
-        #include "Assets/Alloy/Shaders/Forward/Add.cginc"
+        #include "../../Definition/Hair.cginc"
+        #include "../../Forward/Add.cginc"
 
         ENDCG
     }
@@ -309,8 +309,8 @@ SubShader {
         #define UNITY_PASS_FORWARDBASE
         #define _ALPHABLEND_ON
 
-        #include "Assets/Alloy/Shaders/Definition/Hair.cginc"
-        #include "Assets/Alloy/Shaders/Forward/Base.cginc"
+        #include "../../Definition/Hair.cginc"
+        #include "../../Forward/Base.cginc"
 
         ENDCG
     }
@@ -344,8 +344,8 @@ SubShader {
         #define UNITY_PASS_FORWARDADD
         #define _ALPHABLEND_ON
 
-        #include "Assets/Alloy/Shaders/Definition/Hair.cginc"
-        #include "Assets/Alloy/Shaders/Forward/Add.cginc"
+        #include "../../Definition/Hair.cginc"
+        #include "../../Forward/Add.cginc"
 
         ENDCG
     }
@@ -371,8 +371,8 @@ SubShader {
         #define UNITY_PASS_SHADOWCASTER
         #define _ALPHATEST_ON
         
-        #include "Assets/Alloy/Shaders/Definition/Hair.cginc"
-        #include "Assets/Alloy/Shaders/Forward/Shadow.cginc"
+        #include "../../Definition/Hair.cginc"
+        #include "../../Forward/Shadow.cginc"
 
         ENDCG
     }
@@ -395,8 +395,8 @@ SubShader {
         
         #define UNITY_PASS_META
         
-        #include "Assets/Alloy/Shaders/Definition/Hair.cginc"
-        #include "Assets/Alloy/Shaders/Forward/Meta.cginc"
+        #include "../../Definition/Hair.cginc"
+        #include "../../Forward/Meta.cginc"
 
         ENDCG
     }

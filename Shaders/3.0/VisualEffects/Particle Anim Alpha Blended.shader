@@ -68,7 +68,7 @@ Category {
             
             #define A_PARTICLE_TEXTURE_BLEND_ON
 
-            #include "Assets/Alloy/Shaders/Framework/Particle.cginc"
+            #include "../../Framework/Particle.cginc"
             
             half4 aMainFragmentShader(
                 AFragmentInput i) : SV_Target

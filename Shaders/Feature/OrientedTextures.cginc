@@ -32,7 +32,7 @@
     #endif
 #endif
 
-#include "Assets/Alloy/Shaders/Framework/Feature.cginc"
+#include "../Framework/Feature.cginc"
 
 #ifdef A_ORIENTED_TEXTURES_ON
     /// The world-oriented tint color.

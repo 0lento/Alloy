@@ -147,8 +147,8 @@ SubShader {
         
         #define UNITY_PASS_FORWARDBASE
         
-        #include "Assets/Alloy/Legacy/Shaders/Definition/EyeballForward.cginc"
-        #include "Assets/Alloy/Shaders/Forward/Base.cginc"
+        #include "../Definition/EyeballForward.cginc"
+        #include "../../../Shaders/Forward/Base.cginc"
 
         ENDCG
     }
@@ -179,8 +179,8 @@ SubShader {
 
         #define UNITY_PASS_FORWARDADD
 
-        #include "Assets/Alloy/Legacy/Shaders/Definition/EyeballForward.cginc"
-        #include "Assets/Alloy/Shaders/Forward/Add.cginc"
+        #include "../Definition/EyeballForward.cginc"
+        #include "../../../Shaders/Forward/Add.cginc"
 
         ENDCG
     }
@@ -203,8 +203,8 @@ SubShader {
         
         #define UNITY_PASS_SHADOWCASTER
         
-        #include "Assets/Alloy/Legacy/Shaders/Definition/EyeballForward.cginc"
-        #include "Assets/Alloy/Shaders/Forward/Shadow.cginc"
+        #include "../Definition/EyeballForward.cginc"
+        #include "../../../Shaders/Forward/Shadow.cginc"
 
         ENDCG
     }
@@ -228,8 +228,8 @@ SubShader {
         
         #define UNITY_PASS_META
         
-        #include "Assets/Alloy/Legacy/Shaders/Definition/EyeballForward.cginc"
-        #include "Assets/Alloy/Shaders/Forward/Meta.cginc"
+        #include "../Definition/EyeballForward.cginc"
+        #include "../../../Shaders/Forward/Meta.cginc"
 
         ENDCG
     }

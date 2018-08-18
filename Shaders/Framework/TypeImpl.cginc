@@ -10,10 +10,10 @@
     #define A_VERTEX_COLOR_IS_DATA
 #endif
 
-#include "Assets/Alloy/Shaders/Config.cginc"
-#include "Assets/Alloy/Shaders/Framework/LightingImpl.cginc"
-#include "Assets/Alloy/Shaders/Framework/Type.cginc"
-#include "Assets/Alloy/Shaders/Framework/Utility.cginc"
+#include "../Config.cginc"
+#include "../Framework/LightingImpl.cginc"
+#include "../Framework/Type.cginc"
+#include "../Framework/Utility.cginc"
 
 #include "UnityShaderVariables.cginc"
 

@@ -54,8 +54,8 @@ SubShader {
         #pragma vertex aMainVertexShader
         #pragma fragment aMainFragmentShader
 
-        #include "Assets/Alloy/Shaders/Deferred/Light.cginc"
-        #include "Assets/Alloy/Shaders/Framework/Lighting.cginc"
+        #include "../../Deferred/Light.cginc"
+        #include "../../Framework/Lighting.cginc"
 
         // =================================== BEGIN UBER SUPPORT ===================================
 
@@ -224,7 +224,7 @@ SubShader {
         #pragma vertex aMainVertexShader
         #pragma fragment aMainFragmentShader
 
-        #include "Assets/Alloy/Shaders/Deferred/Decode.cginc"
+        #include "../../Deferred/Decode.cginc"
 
         ENDCG 
     }

@@ -20,7 +20,7 @@
     #endif
 #endif
 
-#include "Assets/Alloy/Shaders/Framework/Feature.cginc"
+#include "../Framework/Feature.cginc"
 
 #ifdef A_CAR_PAINT_ON
     /// The primary paint tint.

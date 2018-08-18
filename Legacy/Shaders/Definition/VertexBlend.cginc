@@ -16,8 +16,8 @@
 #define A_SPECULAR_TINT_ON
 #define A_DETAIL_MASK_OFF
 
-#include "Assets/Alloy/Shaders/Lighting/Standard.cginc"
-#include "Assets/Alloy/Shaders/Type/Standard.cginc"
+#include "../../../Shaders/Lighting/Standard.cginc"
+#include "../../../Shaders/Type/Standard.cginc"
 
 half _TriplanarBlendSharpness;
 

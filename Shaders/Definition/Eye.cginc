@@ -10,8 +10,8 @@
 #define A_DETAIL_MASK_OFF
 #define A_DETAIL_COLOR_MAP_OFF
 
-#include "Assets/Alloy/Shaders/Lighting/Standard.cginc"
-#include "Assets/Alloy/Shaders/Type/Standard.cginc"
+#include "../Lighting/Standard.cginc"
+#include "../Type/Standard.cginc"
 
 void aSurfaceShader(
     inout ASurface s)

@@ -12,8 +12,8 @@
     half scatteringMask; \
     half scattering;
 
-#include "Assets/Alloy/Shaders/Framework/Lighting.cginc"
-#include "Assets/Alloy/Shaders/Type/Standard.cginc"
+#include "../../../Shaders/Framework/Lighting.cginc"
+#include "../../../Shaders/Type/Standard.cginc"
 
 // Jon Moore recommended this value in his blog post.
 #define A_SKIN_BUMP_BLUR_BIAS (3.0)

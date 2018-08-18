@@ -14,7 +14,7 @@
     #endif
 #endif
 
-#include "Assets/Alloy/Shaders/Framework/Feature.cginc"
+#include "../../../Shaders/Framework/Feature.cginc"
     
 #ifdef A_EYE_PARALLAX_REFRACTION
     /// Number of samples used for direct view of POM effect.

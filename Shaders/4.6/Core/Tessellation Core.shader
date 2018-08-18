@@ -215,8 +215,8 @@ SubShader {
         
         #define UNITY_PASS_FORWARDBASE
         
-        #include "Assets/Alloy/Shaders/Definition/Core.cginc"
-        #include "Assets/Alloy/Shaders/Forward/Base.cginc"
+        #include "../../Definition/Core.cginc"
+        #include "../../Forward/Base.cginc"
 
         ENDCG
     }
@@ -258,8 +258,8 @@ SubShader {
 
         #define UNITY_PASS_FORWARDADD
 
-        #include "Assets/Alloy/Shaders/Definition/Core.cginc"
-        #include "Assets/Alloy/Shaders/Forward/Add.cginc"
+        #include "../../Definition/Core.cginc"
+        #include "../../Forward/Add.cginc"
 
         ENDCG
     }
@@ -287,8 +287,8 @@ SubShader {
         
         #define UNITY_PASS_SHADOWCASTER
         
-        #include "Assets/Alloy/Shaders/Definition/Core.cginc"
-        #include "Assets/Alloy/Shaders/Forward/Shadow.cginc"
+        #include "../../Definition/Core.cginc"
+        #include "../../Forward/Shadow.cginc"
 
         ENDCG
     }
@@ -329,8 +329,8 @@ SubShader {
         
         #define UNITY_PASS_DEFERRED
         
-        #include "Assets/Alloy/Shaders/Definition/Core.cginc"
-        #include "Assets/Alloy/Shaders/Forward/Gbuffer.cginc"
+        #include "../../Definition/Core.cginc"
+        #include "../../Forward/Gbuffer.cginc"
 
         ENDCG
     }
@@ -357,8 +357,8 @@ SubShader {
         
         #define UNITY_PASS_META
         
-        #include "Assets/Alloy/Shaders/Definition/Core.cginc"
-        #include "Assets/Alloy/Shaders/Forward/Meta.cginc"
+        #include "../../Definition/Core.cginc"
+        #include "../../Forward/Meta.cginc"
 
         ENDCG
     }

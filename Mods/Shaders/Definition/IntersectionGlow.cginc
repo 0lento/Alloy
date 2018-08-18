@@ -13,8 +13,8 @@
 #define A_EMISSIVE_COLOR_ON
 #define A_MAIN_TEXTURES_ON
 
-#include "Assets/Alloy/Shaders/Lighting/Standard.cginc"
-#include "Assets/Alloy/Shaders/Type/Standard.cginc"
+#include "../../../Shaders/Lighting/Standard.cginc"
+#include "../../../Shaders/Type/Standard.cginc"
 
 sampler2D_float _CameraDepthTexture;
 

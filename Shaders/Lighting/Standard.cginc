@@ -6,7 +6,7 @@
 #ifndef ALLOY_SHADERS_LIGHTING_STANDARD_CGINC
 #define ALLOY_SHADERS_LIGHTING_STANDARD_CGINC
 
-#include "Assets/Alloy/Shaders/Framework/Lighting.cginc"
+#include "../Framework/Lighting.cginc"
 
 void aPreLighting(
     inout ASurface s)

@@ -22,7 +22,7 @@
     half3 specularColor1; \
     half roughness1;
 
-#include "Assets/Alloy/Shaders/Framework/Lighting.cginc"
+#include "../Framework/Lighting.cginc"
 
 /// Amount that diffuse lighting should wrap around.
 /// Expects values in the range [0,1].

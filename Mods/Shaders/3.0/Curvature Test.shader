@@ -35,8 +35,8 @@ SubShader {
         
         #define UNITY_PASS_FORWARDBASE
                 
-        #include "Assets/Alloy/Mods/Shaders/Definition/CurvatureTest.cginc"
-        #include "Assets/Alloy/Shaders/Forward/Base.cginc"
+        #include "../Definition/CurvatureTest.cginc"
+        #include "../../../Shaders/Forward/Base.cginc"
 
         ENDCG
     }

@@ -17,7 +17,7 @@
 #define A_ALPHA_BLENDING_PASS
 #define A_CROSSFADE_PASS
 
-#include "Assets/Alloy/Shaders/Framework/Forward.cginc"
+#include "../Framework/Forward.cginc"
 
 void aMainVertexShader(
     AVertexInput v,

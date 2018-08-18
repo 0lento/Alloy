@@ -202,8 +202,8 @@ SubShader {
         #define UNITY_PASS_FORWARDBASE
         #define _ALPHATEST_ON
         
-        #include "Assets/Alloy/Shaders/Definition/DecalAlpha.cginc"
-        #include "Assets/Alloy/Shaders/Forward/Base.cginc"
+        #include "../../Definition/DecalAlpha.cginc"
+        #include "../../Forward/Base.cginc"
 
         ENDCG
     }
@@ -243,8 +243,8 @@ SubShader {
         #define UNITY_PASS_FORWARDADD
         #define _ALPHATEST_ON
         
-        #include "Assets/Alloy/Shaders/Definition/DecalAlpha.cginc"
-        #include "Assets/Alloy/Shaders/Forward/Add.cginc"
+        #include "../../Definition/DecalAlpha.cginc"
+        #include "../../Forward/Add.cginc"
 
         ENDCG
     }
@@ -286,8 +286,8 @@ SubShader {
         #define UNITY_PASS_DEFERRED
         #define _ALPHATEST_ON
         
-        #include "Assets/Alloy/Shaders/Definition/DecalAlpha.cginc"
-        #include "Assets/Alloy/Shaders/Forward/Gbuffer.cginc"
+        #include "../../Definition/DecalAlpha.cginc"
+        #include "../../Forward/Gbuffer.cginc"
 
         ENDCG
     }

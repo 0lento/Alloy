@@ -6,7 +6,7 @@
 #ifndef ALLOY_SHADERS_FEATURE_WEIGHTED_BLEND_CGINC
 #define ALLOY_SHADERS_FEATURE_WEIGHTED_BLEND_CGINC
 
-#include "Assets/Alloy/Shaders/Framework/Feature.cginc"
+#include "../Framework/Feature.cginc"
 
 #ifdef A_WEIGHTED_BLEND_ON
     /// Heightmap used for blending.

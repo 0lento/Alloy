@@ -12,7 +12,7 @@
 
 #define A_BASE_PASS
 
-#include "Assets/Alloy/Shaders/Framework/Forward.cginc"
+#include "../Framework/Forward.cginc"
 
 #include "UnityMetaPass.cginc"
 

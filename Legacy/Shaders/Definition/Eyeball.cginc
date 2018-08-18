@@ -13,9 +13,9 @@
 #define A_EYE_PARALLAX_REFRACTION
 #define A_DETAIL_MASK_OFF
 
-#include "Assets/Alloy/Shaders/Lighting/Standard.cginc"
-#include "Assets/Alloy/Shaders/Type/Standard.cginc"
-#include "Assets/Alloy/Legacy/Shaders/Feature/EyeParallax.cginc"
+#include "../../../Shaders/Lighting/Standard.cginc"
+#include "../../../Shaders/Type/Standard.cginc"
+#include "../Feature/EyeParallax.cginc"
 
 /// Cornea normals.
 /// Expects a compressed normal map.

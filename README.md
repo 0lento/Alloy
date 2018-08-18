@@ -1,4 +1,14 @@
-# Alloy
+# Alloy - converted to be used with Unity Package Manager
+
+Either place this in:  
+**_&lt;project folder&gt;/Packages/package.alloy@4.3.0_**
+
+or copy this somewhere with folder name **_package.alloy@4.3.0_** and add following line to your **_&lt;project folder&gt;/Packages/manifest.json_** dependencies (replace ******* with either absolute or relative path):  
+
+**_"package.alloy" : "file:*******/package.alloy@4.3.0",_**
+
+-----------------------------------------------------------------------
+
 This code is provided AS IS with no support guarantees beyond attempting to keep pace with new Unity releases.
 
 ## Pre-Import Checklist
@@ -8,10 +18,6 @@ First and foremost, if you are importing a new version of Alloy into a project w
 ### Import Steps
 1. Ensure you are in a new blank scene.
 2. ENSURE that there are NO script errors in your console preventing unity from recompiling assemblies. Alloy will NOT function properly (including our editor scripts), if you attempt to import with standing errors in your project.
-3. Import the Alloy package from the Unity Asset Store download window if you have not yet done so.
-4. The first thing you'll notice in the Alloy folder is that there is a sub-directory called 'Packages'.Within this directory there will be a package named Alloy3xx_ShadersAndEditorCore. Import this package first.
-5. If you are a Windows user, and wish to use Alloy Tesselation Shaders (DX11 only), import the Alloy3xx_SM5Shaders folder. In general these shaders take a bit longer to compile/import, so we suggest only importing the variants you intend on using.
-6. Lastly, if you'd like to check out our shweet samples, import the Alloy3SampleAssets package. Enjoy!
 
 ## Setting Up Your Project
 Before using Alloy, there a couple things you MUST set up in your project:

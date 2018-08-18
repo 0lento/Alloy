@@ -67,7 +67,7 @@ Category {
             #pragma vertex aMainVertexShader
             #pragma fragment aMainFragmentShader
             
-            #include "Assets/Alloy/Shaders/Framework/Particle.cginc"
+            #include "../../Framework/Particle.cginc"
             
             half4 aMainFragmentShader(
                 AFragmentInput i) : SV_Target

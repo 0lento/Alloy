@@ -16,7 +16,7 @@
     #endif
 #endif
 
-#include "Assets/Alloy/Shaders/Framework/Feature.cginc"
+#include "../Framework/Feature.cginc"
 
 #ifdef A_DIRECTIONAL_BLEND_ON
     /// Direction around which the blending occurs.

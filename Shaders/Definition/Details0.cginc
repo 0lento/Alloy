@@ -6,8 +6,8 @@
 #ifndef ALLOY_SHADERS_DEFINITION_DETAILS0_CGINC
 #define ALLOY_SHADERS_DEFINITION_DETAILS0_CGINC
 
-#include "Assets/Alloy/Shaders/Lighting/Standard.cginc"
-#include "Assets/Alloy/Shaders/Type/Standard.cginc"
+#include "../Lighting/Standard.cginc"
+#include "../Type/Standard.cginc"
 
 void aSurfaceShader(
     inout ASurface s)

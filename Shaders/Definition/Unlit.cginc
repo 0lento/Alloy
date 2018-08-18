@@ -10,8 +10,8 @@
 #define A_MAIN_TEXTURES_ON
 #define A_MAIN_TEXTURES_MATERIAL_MAP_OFF
 
-#include "Assets/Alloy/Shaders/Lighting/Unlit.cginc"
-#include "Assets/Alloy/Shaders/Type/Standard.cginc"
+#include "../Lighting/Unlit.cginc"
+#include "../Type/Standard.cginc"
 
 void aSurfaceShader(
     inout ASurface s)

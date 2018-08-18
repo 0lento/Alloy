@@ -10,7 +10,7 @@
     #define A_PUDDLES_ON
 #endif
 
-#include "Assets/Alloy/Shaders/Framework/Feature.cginc"
+#include "../Framework/Feature.cginc"
 
 #ifdef A_PUDDLES_ON
     A_SAMPLER_2D(_PuddlesRippleTex);

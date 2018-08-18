@@ -26,7 +26,7 @@
 
 #define A_FORWARD_TEXCOORD0 V2F_SHADOW_CASTER_NOPOS
 
-#include "Assets/Alloy/Shaders/Framework/Forward.cginc"
+#include "../Framework/Forward.cginc"
 
 #ifdef UNITY_STANDARD_USE_DITHER_MASK
     sampler3D _DitherMaskLOD;

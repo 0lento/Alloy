@@ -5,7 +5,7 @@ using UnityEditor;
 using UnityEngine;
 
 public static class AlloyMigrationTools {
-    private const string keywordReportFilename = "/Alloy/Scripts/Material Report.txt";
+    private const string keywordReportFilename = "/Alloy Material Report.txt";
     
     [MenuItem(AlloyUtils.MenuItem + "Material Report", false, 11)]
     private static void MaterialReport() {
@@ -139,7 +139,7 @@ public static class AlloyMigrationTools {
 }
 
 public class AlloyMaterialMigratorPopup : EditorWindow {
-    private const string messageFilename = "/Alloy/Scripts/Editor/MaterialMigratorWarning.txt";
+    private const string messageFilename = "Packages/package.alloy/Editor/MaterialMigratorWarning.txt";
     private static string[] keywordsToRemove = new string[] {
         "_AO2MAPUV_UV0",
         "_AO2MAPUV_UV1",
@@ -204,7 +204,7 @@ public class AlloyMaterialMigratorPopup : EditorWindow {
     };
 
     void OnGUI() {
-        var message = File.ReadAllText(Application.dataPath + messageFilename);
+        var message = File.ReadAllText(Application.dataPath.Substring(0, Application.dataPath.LastIndexOf("Assets")) + messageFilename);
 
         titleContent = new GUIContent("Migrate Materials?");
         EditorGUILayout.LabelField(message, EditorStyles.wordWrappedLabel);
