@@ -1,13 +1,9 @@
 fileFormatVersion: 2
-guid: 778e2b6e13c09be4e950a2c198a47f1c
-timeCreated: 1443913431
-licenseType: Pro
+guid: 3390fd0d397021047a2d242b154874f5
 ShaderImporter:
-  defaultTextures:
-  - _DeferredSkinLut: {fileID: 2800000, guid: d13510bb2be49aa40a66a0101efb6a36, type: 3}
-  - _LightTexture0: {instanceID: 0}
-  - _LightTextureB0: {instanceID: 0}
-  - _ShadowMapTexture: {instanceID: 0}
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
   userData: 
   assetBundleName: 
   assetBundleVariant: 

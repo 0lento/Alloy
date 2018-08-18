@@ -1,23 +1,9 @@
 fileFormatVersion: 2
-guid: 3c6bb95e34002934c85cc13970eee004
-timeCreated: 1456951947
-licenseType: Pro
+guid: bd71d37b595c5c44ea4188e7c33a772d
 ShaderImporter:
-  defaultTextures:
-  - _DetailAlbedoMap: {instanceID: 0}
-  - _DetailMaterialMap: {fileID: 2800000, guid: 2b77d5cb601375f4ba50c6194c126e59,
-      type: 3}
-  - _DetailNormalMap: {instanceID: 0}
-  - _Control: {instanceID: 0}
-  - _Splat3: {instanceID: 0}
-  - _Splat2: {instanceID: 0}
-  - _Splat1: {instanceID: 0}
-  - _Splat0: {instanceID: 0}
-  - _Normal3: {instanceID: 0}
-  - _Normal2: {instanceID: 0}
-  - _Normal1: {instanceID: 0}
-  - _Normal0: {instanceID: 0}
-  - _MainTex: {instanceID: 0}
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
   userData: 
   assetBundleName: 
   assetBundleVariant: 
